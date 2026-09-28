@@ -61,7 +61,7 @@ The result is a quarter-channel rotation applied to every incoming sample. The C
 ## Use
 
 ```bash
-pip install -e ../loopgraph -e ".[test]"
+pip install -e ".[test]"
 myoedge fetch               # clone LibEMG data at pinned commits
 pytest                      # 16 tests; real-data tests skip without the fetch
 myoedge compare             # the table above
